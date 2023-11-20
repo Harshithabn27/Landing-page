@@ -1,0 +1,91 @@
+<html>
+
+<head>
+    <title>Harshitha B N</title>
+    <header>
+        <ul id="left-nav">
+           <ls><a href=""><h3>Home</h3></a></ls></ul>
+        <ul id="left-nav">
+            <ls><a href=""><h3>Login</h3></a></ls></ul>
+        <ul id="left-nav">
+            <ls><a href=""><h3>Address</h3></a></ls></ul>        
+    </header>
+    
+    <script>
+        function submitForm(){
+            const formSubmitted = document.getElementById('form-submitted');
+            formSubmitted.innerHTML='<p color="aliceblue">Form has been submmited successfully</p>'
+        }
+    </script>
+</head>
+<style>
+body { background-image:
+    url(https://images.pexels.com/photos/531844/pexels-photo-531844.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+</style>
+<body text="Black">
+    <br>
+    <center><h1><b>REGISTRATION FORM</b></h1></center>
+    <table align ="center" border-style="solid">
+        <form onsubmit="submitForm()" action="#">
+            <br>
+            <tr>
+               <td>Student name:</td>
+                <td><input type="text" name="sname" maxlength="15" size="30"></td>
+            </tr>
+            <tr>
+                <td>USN no:</td>
+                <td><input type="usn" name="usn" maxlength="15" size="30"></td>
+            </tr>
+            <tr>
+                <td>College name:</td>
+                <td><input type="text" name="cname" maxlength="15" size="30"></td>
+
+            </tr>
+            <tr>
+                <td>Date of birth:</td>
+                <td><input type="text" name="dob" id="dob" maxlength="15" size="30"> </td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender" value="male">Male</input>
+                    <input type="radio" name="gender" value="female">Female</input>
+                </td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><input type="text" name="address" maxlength="15" size="30">
+                </td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="text" name="ename" size="30"></td>
+            </tr>
+           
+                <tr>
+                    <td>
+                       
+    <div id="form-submitted">
+<button><a href="response.html"> Submit</a></button>
+
+    </div>
+                    </td>
+                    </tr>
+            </center>
+    </table>
+    </form>
+</body>
+<br>
+<br>
+<footer>
+    </div>
+    <strong>&Oopf; Harshitha B N <br>
+        Web development [task-1]<br>
+        @Octanet Services Pvt Ltd.</strong>
+    
+   </footer>
+</html>
